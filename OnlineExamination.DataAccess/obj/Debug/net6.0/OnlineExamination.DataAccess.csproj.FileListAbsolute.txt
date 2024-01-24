@@ -1,0 +1,12 @@
+D:\source\repos\OnlineExamination.DataAccess\bin\Debug\net6.0\OnlineExamination.DataAccess.deps.json
+D:\source\repos\OnlineExamination.DataAccess\bin\Debug\net6.0\OnlineExamination.DataAccess.dll
+D:\source\repos\OnlineExamination.DataAccess\bin\Debug\net6.0\OnlineExamination.DataAccess.pdb
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\OnlineExamination.DataAccess.csproj.AssemblyReference.cache
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\OnlineExamination.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\OnlineExamination.DataAccess.AssemblyInfoInputs.cache
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\OnlineExamination.DataAccess.AssemblyInfo.cs
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\OnlineExamination.DataAccess.csproj.CoreCompileInputs.cache
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\OnlineExamination.DataAccess.dll
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\refint\OnlineExamination.DataAccess.dll
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\OnlineExamination.DataAccess.pdb
+D:\source\repos\OnlineExamination.DataAccess\obj\Debug\net6.0\ref\OnlineExamination.DataAccess.dll
