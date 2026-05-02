@@ -1,38 +1,34 @@
----
+# 🎓 Online Examination System (ASP.NET)
 
-# Student Testing System (ASP.NET Project)
+![Language](https://img.shields.io/badge/Language-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![Framework](https://img.shields.io/badge/Framework-ASP.NET-5C2D91?style=flat-square&logo=dotnet&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Development-blue?style=flat-square)
 
-This project is an **ASP.NET** application developed in **C#** as part of a personal pet project for a diploma. It aims to create a functional system that allows teachers to test students easily while providing a convenient interface for managing tests and evaluations. Though the project is not yet fully complete, it serves as a foundation for a comprehensive testing platform that will be refined in the future.
+Комплексная система онлайн-тестирования, разрабатываемая на базе **ASP.NET (C#)**. 
 
-## Features (In Progress)
-
-- **Student Testing**: The primary function of the app is to allow teachers to create and assign tests for students. Each test is customizable, with questions of various formats (e.g., multiple choice, true/false, and short answers).
-- **Teacher Interface**: Teachers are given a dedicated dashboard where they can manage tests, monitor student progress, and review results. The design focuses on simplicity and usability to save time for educators.
-- **Test Evaluation**: The system will eventually allow for automated grading of certain types of questions (e.g., multiple choice), while giving teachers flexibility in grading written responses.
-
-## Purpose
-
-This project is designed to bridge the gap between educators and students by offering a streamlined testing system. Its primary goal is to save time for teachers by providing automated testing tools, allowing them to focus on assessing knowledge rather than administrative tasks. Although the project is still under development, it already shows the potential to become an essential tool in educational environments.
-
-## Project Status
-
-This project is currently **incomplete** and will be finalized at a later date. Planned future enhancements include completing the full testing workflow, integrating secure login/authentication for students and teachers, and improving the grading features.
-
-## Getting Started
-
-1. Clone the repository to your local machine.
-2. Set up the necessary environment for ASP.NET and configure the database.
-3. Run the project in your development environment to explore the current functionality.
-
-## Future Enhancements
-
-- **User Authentication**: Implementing secure login functionality for both teachers and students.
-- **Advanced Test Customization**: Allowing teachers to create more complex tests, including timed exams and randomization of questions.
-- **Automated Grading**: Improving the grading system to provide more detailed feedback for students on their test results.
-- **Student Analytics**: Adding analytics features so teachers can track student performance over time.
+Проект создается в рамках дипломной работы и направлен на автоматизацию проверки знаний студентов. Особое внимание уделено разделению логики: проект использует многослойную архитектуру, включая отдельные модули для доступа к данным (`DataAccess`) и представления (`ViewModels`).
 
 ---
 
-This project is a work in progress, and more features will be added as development continues. Stay tuned for updates and improvements!
+## ✨ Текущий и планируемый функционал
+
+* 📝 **Модуль тестирования (В процессе):** Гибкий конструктор тестов для преподавателей с поддержкой различных форматов вопросов (Multiple choice, True/False, текстовые ответы).
+* 👨‍🏫 **Панель преподавателя:** Удобный дашборд для управления тестами, мониторинга активности студентов и ручной/автоматической проверки результатов.
+* 🛡️ **Аутентификация (В планах):** Безопасная система входа с разделением ролей (Студент / Преподаватель / Администратор).
+* 📊 **Аналитика (В планах):** Сбор статистики успеваемости и генерация отчетов по результатам экзаменов.
 
 ---
+
+## 🛠 Технологический стек и Архитектура
+
+* **Язык разработки:** C#
+* **Платформа:** ASP.NET 
+* **Архитектурный паттерн:** N-Tier Architecture (выделенные слои `OnlineExamination.DataAccess` и `OnlineExamination.ViewModels`)
+
+---
+
+## 🚀 Запуск проекта (Development)
+
+1. Склонируйте репозиторий:
+   ```bash
+   git clone [https://github.com/AuezAvizov/online-examination-aspnet.git](https://github.com/AuezAvizov/online-examination-aspnet.git)
